@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: m42-spring-service-template
+  datasource:
+    url: jdbc:postgresql://localhost:5432/template
+    username: template
+    password: template
+  flyway:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
