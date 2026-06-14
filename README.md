@@ -23,6 +23,14 @@ m42-spring-service-template/
 
 Tech Stack:
 ```
+Java 21
+Spring Boot 3.5.x initially
+Maven
+PostgreSQL
+Flyway
+Testcontainers
+Docker
+GitHub Actions
 Global exception handler
 ApiResponse wrapper
 Validation
